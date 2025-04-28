@@ -1,0 +1,12 @@
+name: packet_drop
+description: TODO
+homepageURL: TODO
+documentationURL: TODO
+sourceURL: TODO
+params:
+  wasm:
+    cidrs:
+      key: cidrs
+      defaultValue: ""
+      description: Comma separated list of CIDR ranges to drop packets from
+      title: CIDR Ranges
